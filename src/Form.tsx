@@ -27,7 +27,7 @@ const Form: React.FC = () => {
         <Input place="Email" type="email" handleChange={handleChange} name="email" />
         <Input place="Password" type="password" handleChange={handleChange} name="password" />
         <Button type="submit">Login</Button>
-        <button type="button" onClick={()=> loginWithRedirect()}>Login con google</button>
+        <button type="button" onClick={()=> loginWithRedirect()}>Logueate con Google,Facebook o Github</button>
     </form>
 
    <Profile />
